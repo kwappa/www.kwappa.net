@@ -1,0 +1,180 @@
+a:link		{ color:#33ff33; }
+a:hover		{ color:#00ff00; }
+a:visited	{ color:#009900; }
+
+/******** Main ****************************************************************/
+body {
+	padding:			   0px ;
+	padding-top:		  16px ;
+	margin:				   0px ;
+	margin-left:		auto ;
+	margin-right:		auto ;
+	text-align:			center ;
+	background-color:	#111111 ;
+	width:				 900px ;
+	color:				white ;
+}
+
+div {
+	padding:			   0px ;
+	margin:				   0px ;
+}
+
+ol,ul {
+	padding:			inherits 0 ;
+}
+
+
+.header img {
+	float:				left ;
+	margin-left:		  16px ;
+}
+
+div.header {
+	width:				 900px ;
+	height:				 108px ;
+	text-align:			right ;
+	margin-bottom:		  24px ;
+	background-color:	#000000 ;
+}
+
+.header H1 {
+	padding:			   0px ;
+	margin:				   0px ;
+	margin-right:		  24px ;
+	float:				right ;
+}
+
+div.wrap {
+	text-align:			 left ;
+	width:				 900px ;
+	background-color:	#000000 ;
+}
+
+
+div.content-body {
+	width:				 100% ;
+	height:100% ;
+}
+
+div.pain_left {
+	width:				 640px ;
+	float:				left ;
+	margin-left:          16px ;
+	background-color:	#222222 ;
+	text-align:			left ;
+	padding-top:		  16px ;
+	padding-bottom:		  16px ;
+	-moz-border-radius:   8px ;
+}
+
+.pain_left H1 {
+	width:				 480px ;
+	background-color:	#000000 ;
+	font-size:			   2.0em ;
+/* 	border:1px solid pink; */
+	padding-left:		  16px ;
+	border-left:		  24px solid darkgreen ;
+	-moz-border-radius:    0px 8px 8px 0px ;
+}
+
+.pain_left P {
+	margin:				   1em   16px ;
+}
+
+div.pain_right {
+	width:				 216px ;
+	float:				right ;
+	background-color:	#222222 ;
+	text-align:			left ;
+	padding-top:		  4px ;
+	padding-bottom:		  8px ;
+	margin-right:		  16px ;
+	-moz-border-radius:   8px ;
+}
+
+div.pain_right_item {
+    text-align:			center ;
+}
+
+div.cookpadjobs {
+    padding: 8px 0;
+}
+
+.pain_right H2 {
+	background-color:	#000000 ;
+	color:				#cccccc ;
+	font-weight:		bold ;
+	font-size:			0.9em ;
+	width:				 160px ;
+	padding:			   2px ;
+	padding-left:		   8px ;
+	text-align:			left ;
+/* 	border:				   1px solid darkgreen ; */
+	border-left:		  16px solid darkgreen ;
+	margin:				   0px ;
+	margin-top:			   8px ;
+	-moz-border-radius:    0px 4px 4px 0px ;
+}
+
+.pain_right H2 a {
+	color:				white ;
+}
+
+div.twitter_badge {
+	width:				 168px ;
+	text-align:			center ;
+	margin-left:		auto ;
+	margin-right:		auto ;
+	margin-top:			   8px ;
+	margin-bottom:		   8px ;
+}
+
+/******** Rss *****************************************************************/
+
+div.rss_feed {
+	width:				 100% ;
+	text-align:			left ;
+	font-size:			   0.75em ;
+	padding:			   4px ;
+}
+.rss_feed ul,ol {
+	margin:				   0 ;
+	padding:			   0   16px ;
+}
+
+.rss_feed ul li{
+	color:				#111111 ;
+
+}
+/******** sa97bot *************************************************************/
+
+.sa97 {
+	padding:			  35% 24px 65% ;
+	margin:				   0 ;
+}
+.sa97_index {
+	clear:				both ;
+	text-align:			right ;
+	width:				  80% ;
+	padding-left:		  80px ;
+}
+
+.sa97_text {
+	border:				   1px dotted silver ;
+	border-left:		  32px solid darkgreen ;
+	padding:			  24px ;
+	width:				  80% ;
+	text-align:			left ;
+	float:				left ;
+	clear:				both ;
+}
+.sa97_title {
+	font-size:			  3em ;
+	font-weight:		bold ;
+	margin-left:		auto ;
+}
+
+.sa97_author {
+	float:				right ;
+}
