@@ -9,3 +9,5 @@ task :link_blog_dir do
     execute "cd #{deploy_to} ; ln -s #{deploy_to}/blog current"
   end
 end
+
+after :deploy, :link_blog_dir
