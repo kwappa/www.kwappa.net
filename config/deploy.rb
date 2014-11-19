@@ -10,4 +10,14 @@ task :link_blog_dir do
   end
 end
 
+desc 'create symlink of docroot'
+task :link_docroot do
+  on roles(:web) do
+    unless test "[ -L #{deploy_to}/docroot ]"
+      execute "cd #{deploy_to} ; ln -s #{deploy_to}/current/docroot"
+    end
+  end
+end
+
 after :deploy, :link_blog_dir
+after :deploy, :link_docroot
