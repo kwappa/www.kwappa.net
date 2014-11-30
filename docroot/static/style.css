@@ -2,7 +2,6 @@ a:link		{ color:#33ff33; }
 a:hover		{ color:#00ff00; }
 a:visited	{ color:#009900; }
 
-/******** Main ****************************************************************/
 body {
 	padding:			   0px ;
 	padding-top:		  16px ;
@@ -23,7 +22,6 @@ div {
 ol,ul {
 	padding:			inherits 0 ;
 }
-
 
 .header img {
 	float:				left ;
@@ -72,7 +70,6 @@ div.pain_left {
 	width:				 480px ;
 	background-color:	#000000 ;
 	font-size:			   2.0em ;
-/* 	border:1px solid pink; */
 	padding-left:		  16px ;
 	border-left:		  24px solid darkgreen ;
 	-moz-border-radius:    0px 8px 8px 0px ;
@@ -101,6 +98,12 @@ div.cookpadjobs {
     padding: 8px 0;
 }
 
+div.ghbook {
+    font-weight: normal;
+    font-size: 0.8em;
+    padding-top: 16px;
+}
+
 .pain_right H2 {
 	background-color:	#000000 ;
 	color:				#cccccc ;
@@ -110,7 +113,6 @@ div.cookpadjobs {
 	padding:			   2px ;
 	padding-left:		   8px ;
 	text-align:			left ;
-/* 	border:				   1px solid darkgreen ; */
 	border-left:		  16px solid darkgreen ;
 	margin:				   0px ;
 	margin-top:			   8px ;
@@ -119,62 +121,4 @@ div.cookpadjobs {
 
 .pain_right H2 a {
 	color:				white ;
-}
-
-div.twitter_badge {
-	width:				 168px ;
-	text-align:			center ;
-	margin-left:		auto ;
-	margin-right:		auto ;
-	margin-top:			   8px ;
-	margin-bottom:		   8px ;
-}
-
-/******** Rss *****************************************************************/
-
-div.rss_feed {
-	width:				 100% ;
-	text-align:			left ;
-	font-size:			   0.75em ;
-	padding:			   4px ;
-}
-.rss_feed ul,ol {
-	margin:				   0 ;
-	padding:			   0   16px ;
-}
-
-.rss_feed ul li{
-	color:				#111111 ;
-
-}
-/******** sa97bot *************************************************************/
-
-.sa97 {
-	padding:			  35% 24px 65% ;
-	margin:				   0 ;
-}
-.sa97_index {
-	clear:				both ;
-	text-align:			right ;
-	width:				  80% ;
-	padding-left:		  80px ;
-}
-
-.sa97_text {
-	border:				   1px dotted silver ;
-	border-left:		  32px solid darkgreen ;
-	padding:			  24px ;
-	width:				  80% ;
-	text-align:			left ;
-	float:				left ;
-	clear:				both ;
-}
-.sa97_title {
-	font-size:			  3em ;
-	font-weight:		bold ;
-	margin-left:		auto ;
-}
-
-.sa97_author {
-	float:				right ;
 }
