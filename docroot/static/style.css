@@ -106,6 +106,10 @@ div.dwango_jobs a {
     line-height: 1.1em;
 }
 
+div.dwango_job_banner {
+    padding-bottom: 8px;
+}
+
 div.ghbook {
     font-weight: normal;
     font-size: 0.8em;
