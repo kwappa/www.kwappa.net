@@ -1,10 +1,11 @@
 [params]
+languageCode = "ja-jp"
 title = "kwappa.net"
 author = "kwappa"
 description = "kwappa's personal website"
 
-profilePicture = "images/kwappa_icon.jpeg"
-favicon = "favicons/"
+profilePicture = "/images/kwappa_icon.jpeg"
+favicon = "/favicons/"
 
 googleAnalytics = "UA-6074410-1"
 enableEmoji = true
