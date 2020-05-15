@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<div class="about">
+  <h2>About</h2>
+  <ul>
+    <li>Programmer</li>
+    <li>Team Reliability Engineer</li>
+    <li>Co-author of <a href="https://amzn.to/365mIi2">Web制作者のためのGitHubの教科書</a></li>
+    <li>Likes
+      <ul>
+        <li>Sauna</li>
+        <li>Camp</li>
+        <li>My son</li>
+      </ul>
+    <li>Blogs
+      <ul>
+        <li><a href="/blog">Kwappa談話室</a> (This Blog / Not Tech)</li>
+        <li><a href="http://randd.kwappa.net">Kwappa研究開発室</a> (Tech)</li>
+        <li><a href="https://kwappa.hatenablog.com">Kwappaラクガキ帳</a> (Misc)</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Contacts</h2>
+  <ul>
+    <li>gmail : kwappa.856 _at_ gmail.com <br><small>※広告宣伝メールは送信しないでください(do not send any advertisement mail)</small></li>
+    <li>twitter : <a href="http://twitter.com/kwappa" target="_blank">http://twitter.com/kwappa</a></li>
+    <li>facebook : <a href="http://www.facebook.com/kwappa" target="_blank">http://www.facebook.com/kwappa</a></li>
+    <li>GitHub : <a href="https://github.com/kwappa" target="_blank">https://github.com/kwappa</a></li>
+    <li>Speaker Deck : <a href="https://speakerdeck.com/kwappa" target="_blank">https://speakerdeck.com/kwappa</a></li>
+    <li>slideshare : <a href="http://www.slideshare.net/kwappa" target="_blank">http://www.slideshare.net/kwappa</a></li>
+    <li>Qiita : <a href="http://qiita.com/users/kwappa" target="_blank">http://qiita.com/users/kwappa</a></li>
+    <li>coderwall : <a href="http://coderwall.com/kwappa" target="_blank">http://coderwall.com/kwappa</a></li>
+    <li>RubyGems.org : <a href="https://rubygems.org/profiles/47624" target="_blank">https://rubygems.org/profiles/47624</a></li>
+    <li>forkwell : <a href="http://forkwell.com/u/kwappa" target="_blank">http://forkwell.com/u/kwappa</a></li>
+    <li>LinkedIn : <a href="http://www.linkedin.com/in/kwappa" target="_blank">http://www.linkedin.com/in/kwappa</a></li>
+    <li>mixi : <a href="http://mixi.jp/show_profile.pl?id=176118" target="_blank">176118</a></li>
+  </ul>
+
+  <h2>Recent Articles</h2>
+  {{ range first 5 .Site.RegularPages }}
+    {{ if eq .Type "post"}}
+      <div>
+        <h3 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ .Summary }}
+        {{ if .Truncated }}
+          <div class="read-more">
+            <a href="{{ .RelPermalink }}">Read More…</a>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+
+</div>
+
+{{ end }}

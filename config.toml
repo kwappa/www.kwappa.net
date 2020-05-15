@@ -1,0 +1,41 @@
+[params]
+title = "kwappa.net"
+author = "kwappa"
+description = "kwappa's personal website"
+
+profilePicture = "images/kwappa_icon.jpeg"
+favicon = "favicons/"
+
+googleAnalytics = "UA-6074410-1"
+enableEmoji = true
+customCSS = ["/css/custom-style.css"]
+
+[[params.socialIcons]]
+    icon = "fa-twitter"
+    title = "twitter"
+    url = "https://twitter.com/kwappa"
+[[params.socialIcons]]
+    icon = "fa-github"
+    title = "GitHub"
+    url = "https://github.com/kwappa"
+[[params.socialIcons]]
+    icon = "fa-facebook"
+    title = "facebook"
+    url = "https://facebook.com/kwappa"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+              unsafe = true
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        identifier = "home"
+        weight = 100
+        url = "/"
+    [[menu.main]]
+        name = "Blog"
+        weight = 200
+        identifier = "blog"
+        url = "/blog/"
