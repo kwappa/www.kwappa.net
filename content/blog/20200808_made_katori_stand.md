@@ -1,7 +1,8 @@
 ---
 title: "鍛造ペグにぴったりな蚊取り線香スタンドを自作した"
 date: 2020-08-08T16:09:30+09:00
-slug: "made_katori_stand"
+url: /blog/20200808/made_katori_stand
+type: post
 ---
 
 我が家の趣味はキャンプです。そのキャンプの時間を楽しく過ごすには、害虫対策が欠かせません。
@@ -9,6 +10,8 @@ slug: "made_katori_stand"
 そこで今回は、鍛造ペグに磁石でくっつけるタイプの自作蚊取り線香スタンドをご紹介します。
 
 {{< figure src="/blog/images/2020/08/00.jpeg#center" width="640" >}}
+
+<!--more-->
 
 ## 材料
 
