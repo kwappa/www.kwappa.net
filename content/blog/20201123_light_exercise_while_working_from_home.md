@@ -1,9 +1,8 @@
 ---
 title: "在宅勤務をうまくやるための軽い運動"
-date: 2020-11-23T20:20:20+09:00
+date: 2020-11-23T08:00:00+09:00
 url: /blog/20201123/light_exercise_while_working_from_home
 type: post
-images: ["/blog/images/2020/11/walking.jpeg"]
 ---
 
 先日ひさしぶりに出社して、同僚と「在宅勤務をうまくやるための軽い運動」について話したら意外と喜ばれたので、メモとして残しておきます。
