@@ -20,6 +20,10 @@ img[src$='#floatright'] {
     margin: 0.7rem;
 }
 
+h3 {
+    text-transform: unset !important;
+}
+
 div.simple-table table {
     border-top: 1px solid #e2e2e2;
     border-left: 1px solid #e2e2e2;
