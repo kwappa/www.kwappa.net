@@ -1,5 +1,5 @@
 ---
-title: "2020ふりかえり"
+title: "2020年ふりかえり"
 url: /blog/20201231/2020_retrospective
 date: 2020-12-31T17:00:00+09:00
 type: post
