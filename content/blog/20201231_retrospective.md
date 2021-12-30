@@ -9,20 +9,20 @@ type: post
   
 今年の漢字は「密」とのこと。大半を在宅勤務で過ごしていたから、個人的にはあんまり「密」を経験しなかったのですが。
 
-{{< figure src="https://kyoto-np.ismcdn.jp/mwimgs/1/2/600m/img_12b172070309ee699dd85ca80d81365b760474.jpg" widt="320" >}}
+{{< figure src="https://kyoto-np.ismcdn.jp/mwimgs/1/2/600m/img_12b172070309ee699dd85ca80d81365b760474.jpg" width="320" >}}
 
 ## バックナンバー
 
-- [2019](http://www.kwappa.net/blog/archives/2199)
-- [2018](http://www.kwappa.net/blog/archives/2156)
-- [2017](http://www.kwappa.net/blog/archives/2148)
-- [2016](http://www.kwappa.net/blog/archives/2108)
-- [2015](http://www.kwappa.net/blog/archives/2022)
-- [2014](http://www.kwappa.net/blog/archives/1985)
-- [2013](http://www.kwappa.net/blog/archives/1921)
-- [2012](http://www.kwappa.net/blog/archives/1697)
-- [2009](http://www.kwappa.net/blog/archives/1354)
-- [2008](http://www.kwappa.net/blog/archives/480)
+- [2019](/blog/archives/2199)
+- [2018](/blog/archives/2156)
+- [2017](/blog/archives/2148)
+- [2016](/blog/archives/2108)
+- [2015](/blog/archives/2022)
+- [2014](/blog/archives/1985)
+- [2013](/blog/archives/1921)
+- [2012](/blog/archives/1697)
+- [2009](/blog/archives/1354)
+- [2008](/blog/archives/480)
 
 <!--more-->
 
