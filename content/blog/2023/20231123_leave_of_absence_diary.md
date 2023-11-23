@@ -1,7 +1,7 @@
 ---
 title: "休職日記ダイジェスト版"
 url: /blog/20231123/leave_of_absence_diary
-date: 2023-11-23T11:00:00+09:00
+date: 2023-11-23T11:23:00+09:00
 type: post
 ---
 
