@@ -2,10 +2,10 @@ googleAnalytics = "UA-6074410-1"
 enableEmoji = true
 
 [params]
-languageCode = "ja-jp"
 title = "kwappa.net"
 author = "kwappa"
 description = "kwappa's personal website"
+languageCode = "ja-jp"
 defaultContentLanguage = "ja-jp"
 
 profilePicture = "/images/kwappa_icon.jpeg"
@@ -18,15 +18,15 @@ doNotLoadAnimations = true
   twitter = "kwappa"
 
 [[params.socialIcons]]
-    icon = "fa-twitter"
+    icon = "fab fa-twitter"
     title = "twitter"
     url = "https://twitter.com/kwappa"
 [[params.socialIcons]]
-    icon = "fa-github"
+    icon = "fab fa-github"
     title = "GitHub"
     url = "https://github.com/kwappa"
 [[params.socialIcons]]
-    icon = "fa-facebook"
+    icon = "fab fa-facebook"
     title = "facebook"
     url = "https://facebook.com/kwappa"
 
