@@ -1,14 +1,28 @@
 body {
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans", Meiryo, sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-    text-transform: unset !important;
-}
-div.sidebar__introduction-title {
-    text-transform: unset !important;
-    margin: 24px;
+
+.post__content {
+    p, ul, ol {
+        line-height: 1.6em;
+    }
 }
 
+ul.archive__list {
+    margin: 0;
+}
+.archive__list-title {
+    text-transform: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+}
+
+div.sidebar__introduction-title {
+    text-transform: none !important;
+    margin: 24px;
+}
 .about .read-more {
     text-align: right;
 }
