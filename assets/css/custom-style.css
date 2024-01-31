@@ -8,6 +8,13 @@ body {
     }
 }
 
+div.quote-caption {
+    font-size: 0.6em;
+    text-align: right;
+    font-style: italic;
+    border: 1px solid red;
+}
+
 ul.archive__list {
     margin: 0;
 }
@@ -17,6 +24,7 @@ ul.archive__list {
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: none !important;
+    border: 2px solid green;
 }
 
 div.sidebar__introduction-title {
