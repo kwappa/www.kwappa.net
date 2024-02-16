@@ -3,9 +3,12 @@ title: "軽率に会社を設立してみた"
 url: /blog/20240206/founding_a_company_carelessly
 date: 2024-02-06T16:00:00+09:00
 type: post
+images: ["/blog/images/2024/02/marunouchi.jpg"]
 ---
 
 ひとり合同会社を設立してみました。
+
+{{< figure src="/blog/images/2024/02/marunouchi.jpg" width="100%" >}}
 
 ## なんで？
 
