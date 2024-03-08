@@ -8,6 +8,10 @@ body {
     }
 }
 
+code {
+    font-family: Menlo, Monaco, 'Courier New', monospace !important;
+}
+
 div.quote-caption {
     font-size: 0.7em;
     text-align: right;
