@@ -55,7 +55,7 @@ images: ["/blog/images/2024/04/transmit_ogp.png"]
 - **Please sit down when you are on the toilet**
   - :mens: :pray:
 
-{{< figure src="/blog/images/2024/04/transmit_brasserie_knot.jpg" width="640px">}}
+{{< figure src="/blog/images/2024/04/transmit_be_easy.jpg" width="640px">}}
 
 ## いきさつ
 
