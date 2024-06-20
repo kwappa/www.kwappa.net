@@ -43,7 +43,7 @@ images: ["/blog/images/2024/06/transmit_kappa_ogp.png"]
   - Credit Card
   - QUICPay, iD
   - 交通系ICカード
-  - PayPay
+- PayPay
 - 現金は使えません :bow:
 
 ### Code of Conduct
