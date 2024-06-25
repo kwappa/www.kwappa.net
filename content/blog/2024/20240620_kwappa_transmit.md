@@ -3,7 +3,7 @@ title: "6/30 ビアバー「カパカパ」を営業します"
 url: /blog/20240620_kwappa_transmit
 date: 2024-06-20T14:00:00+09:00
 type: post
-images: ["/blog/images/2024/06/transmit_kappa_ogp.png"]
+images: ["blog/images/2024/06/transmit_kappa_ogp.png"]
 ---
 
 {{< figure src="/blog/images/2024/06/transmit_entrance.jpg" >}}
