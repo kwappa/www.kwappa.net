@@ -16,8 +16,6 @@ customCSS = ["/css/custom-style.css"]
 images = ["/images/kwappa_icon.jpeg"]
 doNotLoadAnimations = true
 reversepagetitle = true
-canonifyURLs = true
-
 [[social]]
     twitter = "kwappa"
 
