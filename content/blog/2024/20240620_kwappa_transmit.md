@@ -68,4 +68,4 @@ images: ["/blog/images/2024/06/transmit_kappa_ogp.png"]
 
 {{< figure src="/blog/images/2024/06/transmit_beers.jpg" width="100%">}}
 
-それでは6/30（日）、大田区鵜の木の「[Bottle Shop Transmit](https://www.instagram.com/bottle_shop_transmit/)」でお会いしましょう！
+それでは6/30（日）、大田区鵜の木の「[Bottle Shop Transmit](https://www.instagram.com/bottle_shop_transmit/)」でお会いしましょう！ :beer:
