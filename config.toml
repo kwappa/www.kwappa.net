@@ -1,4 +1,5 @@
 enableEmoji = true
+baseURL = 'https://kwappa.net/'
 
 [services]
     [services.googleAnalytics]
