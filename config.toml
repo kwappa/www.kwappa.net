@@ -10,10 +10,10 @@ author = "kwappa.net"
 description = "kwappa's personal website"
 languageCode = "ja-jp"
 defaultContentLanguage = "ja-jp"
-profilePicture = "/images/kwappa_icon.jpeg"
+profilePicture = "/images/kwappa_icon_full.png"
 favicon = "/favicons/"
 customCSS = ["/css/custom-style.css"]
-images = ["/images/kwappa_icon.jpeg"]
+images = ["/images/kwappa_icon_full.png"]
 doNotLoadAnimations = true
 reversepagetitle = true
 [[social]]
@@ -53,3 +53,8 @@ reversepagetitle = true
         weight = 300
         identifier = "resume"
         url = "/resume/"
+    [[menu.main]]
+        name = "🍺"
+        weight = 400
+        identifier = "kapakapa"
+        url = "/kapakapa/"
