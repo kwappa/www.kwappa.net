@@ -2,7 +2,7 @@
 title: "ビアバー・カパカパ"
 date: 2024-08-05T12:46:46+09:00
 slug: "kapakapa"
-images: ["/images/kapakapa/transmit_kappa_ogp.png"]
+images: ["https://kwappa.net/images/kapakapa/transmit_kappa_ogp.png"]
 ---
 {{< figure src="/images/kapakapa/transmit_entrance.jpg" width="100%">}}
 
