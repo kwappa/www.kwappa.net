@@ -8,7 +8,7 @@ images: ["/images/kapakapa/transmit_kappa_ogp.png"]
 
 大田区鵜の木のクラフトビール専門店「[Bottle Shop Transmit](https://bottle-shop-transmit.square.site/)」を間借りして、毎月1回ビアバー「カパカパ」を営業しています。
 
-次回営業は2024/08/12（月・祝）を予定しています。
+次回営業は2024/09/23（月・祝）を予定しています。
 
 お店は東急多摩川線鵜の木駅徒歩1分のところにあります。
 
@@ -59,3 +59,10 @@ images: ["/images/kapakapa/transmit_kappa_ogp.png"]
   - おたがいに少しずつ、配慮をお願いします。
 - **Please sit down when you are on the toilet**
   - :mens: :pray:
+
+## 営業履歴
+- 2024/08/12
+- 2024/07/14
+- 2024/06/30
+- 2024/05/29
+- 2024/04/24
