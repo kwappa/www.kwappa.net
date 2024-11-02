@@ -37,12 +37,19 @@ div.sidebar__introduction-title {
     text-align: right;
 }
 .about .post-title {
-    border-bottom: 1px solid silver;
+    font-weight: 600;
 }
 
 .about p.bottom-link {
-    border-top: 1px solid silver;
     text-align: right;
+}
+
+img.home-banner {
+    width: 95%;
+    max-width: 480px;
+    border-radius: 4px;
+    margin: 10px auto;
+    display: block;
 }
 
 img[src$='#center'] {
