@@ -44,12 +44,73 @@ div.sidebar__introduction-title {
     text-align: right;
 }
 
+/* banner and concats on home */
 img.home-banner {
     width: 95%;
     max-width: 480px;
-    border-radius: 4px;
-    margin: 10px auto;
+    border-radius: 12px;
+    margin: 4px auto;
     display: block;
+}
+
+.contacts-list > button {
+    font-size: 1.2em;
+    margin: 4px auto;
+    display: block;
+    width: 95%;
+    max-width: 480px;
+    border: 1px solid silver;
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 0.6em 0.6em;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* tooltip */
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip-text {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.8em;
+    display: inline-block;
+    padding: 4px 0.6em;
+    white-space: nowrap;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    background: #333;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.2s ease-in;
+}
+
+.tooltip:hover .tooltip-text {
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.about-list, .about-list ul {
+    list-style: none;
+}
+
+/* compress header when smartphone view */
+@media screen and (max-width: 961px) {
+    .sidebar__introduction-title, .sidebar__list {
+        margin: 0.2em !important;
+    }
+    .wrapper__main > .post {
+        margin-top: 0.2em !important;
+    }
+    .wrapper__sidebar {
+        padding-bottom: 0.2em !important;
+    }
 }
 
 img[src$='#center'] {

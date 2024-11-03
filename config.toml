@@ -13,9 +13,12 @@ defaultContentLanguage = "ja-jp"
 profilePicture = "/images/kwappa_icon_full.png"
 favicon = "/favicons/"
 customCSS = ["/css/custom-style.css"]
+customJs = ["/javascript/my-functions.js"]
 images = ["/images/kwappa_icon_full.png"]
 doNotLoadAnimations = true
 reversepagetitle = true
+# enableMediumZoom = false
+
 [[social]]
     twitter = "kwappa"
 

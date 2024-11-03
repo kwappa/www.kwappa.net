@@ -1,32 +1,31 @@
 {{ define "main" }}
 <div class="post">
-  <div class="post__content about">
+  <div class="about">
 
-  <a href="https://kappatsu.co.jp/" target="_blank" rel="noreferrer noopener"><img class="home-banner" src="/images/banner_kappatsu.png"></a>
-  <a href="https://randd.kwappa.net/publishing/" target="_blank" rel="noreferrer noopener"><img class="home-banner" src="/images/banner_publishing.png"></a>
-  <a href="https://randd.kwappa.net/" target="_blank" rel="noreferrer noopener"><img class="home-banner" src="/images/banner_randd.png"></a>
+  <div class="home-banners">
+    <a href="https://kappatsu.co.jp/" target="_blank" rel="noreferrer noopener"><img class="home-banner" src="/images/banner_kappatsu.png"></a>
+    <a href="https://randd.kwappa.net/publishing/" target="_blank" rel="noreferrer noopener"><img class="home-banner" src="/images/banner_publishing.png"></a>
+    <a href="https://randd.kwappa.net/" target="_blank" rel="noreferrer noopener"><img class="home-banner" src="/images/banner_randd.png"></a>
+  </div>
 
-  <h2><a name="contacts"></a>Contacts</h2>
-  <ul>
-    <li><i class="fa-solid fa-envelope"></i> <code>kwappa.856@gmail.com</code></li>
-    <li><i class="fa-brands fa-bluesky"></i> <a href="https://bsky.app/profile/kwappa.bsky.social" target="_blank" rel="noreferrer noopener">@kwappa.bsky.social</a></li>
-    <li><i class="fa-brands fa-github"></i> <a href="https://github.com/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-    <li><i class="fa-brands fa-square-x-twitter"></i> <a href="http://twitter.com/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-    <li><i class="fa-brands fa-square-facebook"></i> <a href="http://www.facebook.com/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-    <li><i class="fa-brands fa-signal-messenger"></i> <a href="https://signal.me/#eu/N1vwOZpOLmNwby45vOjvuQEPgQYm51nnjV8p+/u2OYcOK9k5CDJE1JNjnvd6F5AB" target="_blank" rel="noreferrer noopener">kwappa.64</a></li>
-    <details>
-      <summary>more</summary>
-      <li><i class="fa-brands fa-speaker-deck"></i> <a href="https://speakerdeck.com/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-      <li><i class="fa-brands fa-slideshare"></i> <a href="http://www.slideshare.net/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-      <li><i class="fa-brands fa-linkedin"></i> <a href="http://www.linkedin.com/in/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-      <li>YOUTRUST : <a href="https://youtrust.jp/users/dd28e55806a491b626f3583cc308af42" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-      <li>forkwell : <a href="https://portfolio.forkwell.com/@kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-      <li>Qiita : <a href="http://qiita.com/users/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-      <li>Zenn : <a href="https://zenn.dev/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-      <li>RubyGems.org : <a href="https://rubygems.org/profiles/47624" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
-      <li>mixi : <a href="http://mixi.jp/show_profile.pl?id=176118" target="_blank" rel="noreferrer noopener">176118</a></li>
-    </details>
-  </ul>
+  <div class="contacts-list">
+    <button class="contact-button email tooltip" onclick="copyMyEmail();" onmouseout="restoreTooltipMyEmail();">
+      <span class="tooltip-text" id="tooltip-my-email">Click to copy email address</span>
+      <i class="fa-xl fa-solid fa-envelope"></i> <code>kwappa.856@gmail.com</code>
+    </button>
+    <button class="contact-button" onclick="window.open('https://bsky.app/profile/kwappa.bsky.social')">
+      <i class="fa-xl fa-brands fa-bluesky"></i> @kwappa.bsky.social
+    </button>
+    <button class="contact-button" onclick="window.open('https://github.com/kwappa')">
+      <i class="fa-xl fa-brands fa-github"></i> @kwappa
+    </button>
+    <button class="contact-button" onclick="window.open('http://twitter.com/kwappa')">
+      <i class="fa-xl fa-brands fa-twitter"></i> @kwappa
+    </button>
+    <button class="contact-button" onclick="window.open('http://www.facebook.com/kwappa')">
+      <i class="fa-xl fa-brands fa-facebook"></i> @kwappa
+    </button>
+  </div>
 
   <h2>Recent Blog Posts</h2>
   <ul>
@@ -44,23 +43,42 @@
   </p>
 
   <h2><a name="about"></a>About</h2>
-  <ul>
-    <li>  <i class="fa-solid fa-user"></i>
-      Programmer</li>
-    <li>Co-author of <a href="https://amzn.to/365mIi2">Web制作者のためのGitHubの教科書</a></li>
-    <li>Likes
+  <ul class="about-list">
+    <li><i class="fa-solid fa-keyboard"></i> Programmer</li>
+    <li><i class="fa-solid fa-book"></i> Co-author of <a href="https://amzn.to/365mIi2">Web制作者のためのGitHubの教科書</a></li>
+    <li><i class="fa-solid fa-heart"></i> Likes
       <ul>
-        <li>Sauna</li>
-        <li>Camp</li>
-        <li>My son</li>
+        <li><i class="fa-solid fa-hot-tub-person"></i> Sauna</li>
+        <li><i class="fa-solid fa-campground"></i> Camp</li>
+        <li><i class="fa-solid fa-beer-mug-empty"></i> Craft Beer</li>
+        <li><i class="fa-solid fa-child"></i> My son</li>
       </ul>
     </li>
-    <li>Contents
+    <li><i class="fa-solid fa-link"></i> Links
       <ul>
-        <li><a href="/blog">Kwappa談話室</a> (This Blog / Not Tech)</li>
-        <li><a href="http://randd.kwappa.net">Kwappa研究開発室</a> (Tech)</li>
-        <li><a href="http://randd.kwappa.net/publishing">河童書房</a> (Self-Publishing)</li>
-        <li><a href="https://kwappa.hatenablog.com">Kwappaラクガキ帳</a> (Misc)</li>
+        <li><i class="fa-solid fa-building"></i> <a href="http://kappatsu.co.jp">カッパツ合同会社</a></li>
+        <li><i class="fa-solid fa-laptop-code"></i> <a href="http://randd.kwappa.net">Kwappa研究開発室</a></li>
+        <li><i class="fa-solid fa-book-open"></i> <a href="http://randd.kwappa.net/publishing">河童書房</a></li>
+        <li><i class="fa-solid fa-link"></i> <a href="https://kwappa.hatenablog.com">Kwappaラクガキ帳</a></li>
+      </ul>
+    </li>
+    <li><i class="fa-solid fa-address-card"></i> Contacts
+      <ul>
+        <li><i class="fa-solid fa-envelope"></i> <code>kwappa.856@gmail.com</code></li>
+        <li><i class="fa-brands fa-bluesky"></i> <a href="https://bsky.app/profile/kwappa.bsky.social" target="_blank" rel="noreferrer noopener">@kwappa.bsky.social</a></li>
+        <li><i class="fa-brands fa-github"></i> <a href="https://github.com/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-brands fa-square-x-twitter"></i> <a href="http://twitter.com/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-brands fa-square-facebook"></i> <a href="http://www.facebook.com/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-brands fa-signal-messenger"></i> <a href="https://signal.me/#eu/N1vwOZpOLmNwby45vOjvuQEPgQYm51nnjV8p+/u2OYcOK9k5CDJE1JNjnvd6F5AB" target="_blank" rel="noreferrer noopener">kwappa.64</a></li>
+        <li><i class="fa-brands fa-speaker-deck"></i> <a href="https://speakerdeck.com/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-brands fa-slideshare"></i> <a href="http://www.slideshare.net/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-brands fa-linkedin"></i> <a href="http://www.linkedin.com/in/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-solid fa-link"></i> YOUTRUST : <a href="https://youtrust.jp/users/dd28e55806a491b626f3583cc308af42" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-solid fa-link"></i> forkwell : <a href="https://portfolio.forkwell.com/@kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-solid fa-link"></i> Qiita : <a href="http://qiita.com/users/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-solid fa-link"></i> Zenn : <a href="https://zenn.dev/kwappa" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-solid fa-link"></i> RubyGems.org : <a href="https://rubygems.org/profiles/47624" target="_blank" rel="noreferrer noopener">@kwappa</a></li>
+        <li><i class="fa-solid fa-link"></i> mixi : <a href="http://mixi.jp/show_profile.pl?id=176118" target="_blank" rel="noreferrer noopener">176118</a></li>
       </ul>
     </li>
   </ul>
